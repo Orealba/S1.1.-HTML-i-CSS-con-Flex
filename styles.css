@@ -7,51 +7,38 @@
   margin: 1rem 1rem 2rem 1rem;
 }
 .header-primerosCuadros-logo {
-  width: 35rem;
-  height: 4rem;
-  margin-left: 3rem;
-  margin-right: 0rem;
-  padding-left: 1rem;
   text-align: start;
-  border: 0;
+  padding: 1rem 10rem 1rem 1rem;
+  margin: 2rem 1rem 2rem 2rem;
 }
 .header-primerosCuadros-logo:hover {
-  background-color: rgb(255, 46, 213);
+  background-color: rgb(255, 46, 213) !important;
   transform: scale(1.2);
 }
 .header-primerosCuadros-nav {
-  width: 90rem;
-  height: 4rem;
-  margin-left: 2rem;
-  padding-right: 15rem;
-  padding-left: 1rem;
-  border: 0;
+  padding: 1rem 39rem 1rem 1rem;
+  margin: 2rem 1rem 2rem 1rem;
+
+  text-align: start;
 }
 .header-primerosCuadros-social {
-  width: 35rem;
-  height: 4rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  padding-left: 1rem;
   text-align: start;
-  border: 0;
+  padding: 1rem 10rem 1rem 1rem;
+  margin: 2rem 0rem 2rem 1rem;
+  text-align: start;
 }
 
 .header-segundoRectangulo {
-  height: 6rem;
+  height: 7rem;
   margin: 1rem;
   padding: 1rem;
 }
 .header-primerosCuadros-banner {
   background-color: yellow;
-  height: 1rem;
-  width: 94.5%;
-  margin: 0.5rem 0 1rem 2rem;
-  padding-bottom: 3rem;
+  margin: 0.5rem;
+  padding: 0.5rem 0 0.5rem 1rem;
   font-size: 2rem;
-  border: 0;
   text-align: start;
-  padding-left: 1rem;
 }
 
 .body-container {
@@ -64,12 +51,11 @@
   width: 100%;
   margin: 1rem 0 1rem 2rem;
 }
-
+/*/Quedé aqui*/
 .body-rectangulos-azules-articles {
   background-color: rgb(41, 77, 135);
   padding: 1rem 20rem 1rem 1rem;
   margin: 2rem 3rem 0 3rem;
-  
 }
 .body-rectangulo-azul-claro {
   background-color: rgb(123, 187, 190);
