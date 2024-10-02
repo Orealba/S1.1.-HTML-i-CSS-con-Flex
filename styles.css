@@ -3,6 +3,7 @@
   margin-top: 1rem;
 }
 .header-primerosRectangulo {
+  display: flex;
   height: 6rem;
   margin: 1rem 1rem 2rem 1rem;
 }
@@ -89,18 +90,29 @@
   .background {
     background-color: rgb(195, 202, 202);
   }
+  .header-ejercicio {
+    margin: 2rem 8rem 2rem 0rem;
+    padding: 1rem 1rem 1rem 1rem;
+  }
   .header-primerosRectangulo {
     display: block !important;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 15rem 1rem;
   }
   .header-primerosCuadros-logo {
+    padding: 1rem 14rem 1rem 1rem;
+    margin: 1rem 0rem 0rem 0.5rem;
   }
   .header-primerosCuadros-nav {
+    padding: 1rem 14rem 1rem 1rem;
+    margin: 1rem 0rem 0rem 0.5rem;
   }
   .header-primerosCuadros-social {
+    padding: 1rem 14rem 1rem 1rem;
+    margin: 1rem 0rem 0rem 0.5rem;
   }
   .header-primerosCuadros-banner {
     background-color: rgb(239, 239, 99);
-    width: 18rem;
     margin-left: 1rem;
   }
 
