@@ -2,6 +2,9 @@
   padding: 1rem;
   margin-top: 1rem;
 }
+.container {
+  max-width: 1200px;
+}
 .header-primerosRectangulo {
   display: flex;
   height: 6rem;
@@ -87,12 +90,12 @@
 }
 
 /*query mobile*/
-@media screen and (max-width: 767.98px) {
+@media screen and (min-width: 768px) and (max-width: 990px) {
   .background {
     background-color: rgb(195, 202, 202);
   }
   .header-ejercicio {
-    margin: 2rem 8rem 2rem 0rem;
+    margin: 2rem 3rem 2rem 3rem;
     padding: 1rem 1rem 1rem 1rem;
   }
   .header-primerosRectangulo {
@@ -119,7 +122,7 @@
   /*body*/
   .body-container {
     display: block;
-    margin: 2rem 8rem 2rem 0rem;
+    margin: 2rem 3rem 2rem 3rem;
     padding: 1rem 1rem 1rem 1rem;
   }
 
@@ -152,11 +155,84 @@
     margin: 1rem 0rem 0rem 0.5rem;
   }
   .body-footer-rectangulo-negro {
-    margin: 1rem 8rem 2rem 0rem;
+    margin: 1rem 3rem 2rem 3rem;
     padding: 1rem 1rem 1rem 1rem;
   }
   .body-footer-rectangulo-beige {
     margin: 1rem 1rem 1rem 1rem;
     padding: 1rem 1rem 1rem 1rem;
+  }
+}
+
+/* tablet*/
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+  .background {
+    background-color: rgb(131, 229, 229);
+  }
+  .header-ejercicio {
+    margin: 2rem 1rem 2rem 0rem;
+    padding: 1rem 1rem 3rem 1rem;
+  }
+  .header-primerosRectangulo {
+    display: block;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 22rem 1rem;
+  }
+  .header-primerosCuadros-logo {
+    margin: 2rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+  .header-primerosCuadros-nav {
+    margin: 2rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+  .header-primerosCuadros-social {
+    margin: 2rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+  .header-segundoRectangulo {
+    margin: 2rem 1rem 1rem 1rem;
+  }
+  .header-primerosCuadros-banner {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0.5rem 1rem 0rem 0.3rem;
+  }
+
+  .body-container {
+    margin: 2rem 1rem 2rem 0rem;
+    padding: 1rem 1rem 1rem 1rem;
+    display: block;
+  }
+
+  .body-rectangulo-gris {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0rem 1rem 1rem 1rem;
+  }
+
+  .body-rectangulos-azules {
+    display: flex;
+  }
+  .body-rectangulos-azules-articles {
+    margin: 2rem 0 0 1rem;
+    padding: 1rem 20rem 1rem 1rem;
+  }
+
+  .body-rectangulo-azul-claro {
+    margin: 2rem 1.2rem 1rem 1rem;
+    padding: 1rem 18rem 1rem 1rem;
+  }
+
+  .body-rectangulo-rojo-publi {
+    margin: 1rem 1rem 1rem 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .body-footer-rectangulo-negro {
+    margin-right: 1rem;
+  }
+  .body-footer-rectangulo-beige {
+    padding: 1rem 0 1rem 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
   }
 }
